@@ -4,4 +4,76 @@
 
 .settingsWarpper{
 flex: 10;
+padding: 20px;
+}
+
+.settingsTitle{
+    display: flex;
+    align-items: center;
+
+justify-content: space-between}
+
+.settingsUpdateTitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightblue
+}
+
+.settingsDeleteTitle{
+    color: lightcoral;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settigsPP > img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.settigsPP{
+    display: flex;
+    align-items: center;
+    margin-top: 10px 0;
+}
+
+.settingsPPIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color: gray;
+    height: 20px;
+    margin: 10px 0;
+    border-radius: none;
+
+}
+.settingsSubmit{
+width: 150px;
+align-self: center;
+border: none;
+border-radius: 10px;
+color: white;
+background-color: dodgerblue;
+cursor: pointer;
+padding: 10px;
+margin-top: 15px;
 }

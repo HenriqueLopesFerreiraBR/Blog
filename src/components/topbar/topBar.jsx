@@ -4,11 +4,12 @@ import "./topbar.css";
 export default function TopBar(){
     return (
         <div className="top">
-           Crônicas de T.I
            <div className="topLeft">
-                <i className="topIcon fab fa-facebook-square"></i>
+           Crônicas de T.I
+
+                {/* <i className="topIcon fab fa-facebook-square"></i>
                 <i className="topIcon fab fa-twitter-square"></i>
-                <i className="topIcon fab fa-instagram-square"></i>
+                <i className="topIcon fab fa-instagram-square"></i> */}
 
            </div>
            <div className="topCenter ">

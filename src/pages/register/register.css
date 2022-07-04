@@ -1,0 +1,55 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://cd.blokt.com/wp-content/uploads/2019/01/digital-blockchain-interface-with-cyber-protection-button-concept-at-abstract-technology-background.-3D-Rendering-Illustration.jpg");
+    align-items: center;
+    background-size: cover;
+}
+.registerTitle{
+font-size: 50px;
+color: white;
+
+}
+
+.registerForm{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+    color: white;
+}
+
+.registerForm > input{
+    padding: 10px;
+    background-color: white;
+    border: none;    
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.loginButton{
+position: absolute;
+top: 60px;
+right: 20px;
+cursor: pointer;
+background-color: rgb(0, 140, 255);
+color: white;
+border: none;
+border-radius: 20px;
+width: 100px;
+height: 30px;
+}
