@@ -9,10 +9,10 @@ export default function login() {
             <input type="text" placeholder="Digite seu e-mail" />
             <label htmlFor="">Senha</label>
             <input type="password" placeholder="Digite sua senha" />
-            <button type="submit" className="loginButton">Login</button>
+            <button type="submit" className="loginbutton"><a href="/home"> Login </a></button>
 
         </form>
-        <button className="registerButton">Registrar</button>
+        <button className="registerButton"><a href="/register"> Registrar </a></button>
     </div>
   )
 }
